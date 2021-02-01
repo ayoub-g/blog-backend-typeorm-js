@@ -1,0 +1,19 @@
+{
+  "name": "blog-backend-typeorm-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "pg": "^8.5.1"
+  },
+  "scripts": {
+    "start": "nodemon node src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-timeout": "^1.9.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "typeorm": "^0.2.30"
+  }
+}
