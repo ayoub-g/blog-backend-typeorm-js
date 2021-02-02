@@ -22,6 +22,7 @@ module.exports = new EntitySchema({
       joinTable: false,
       joinColumn: true,
       cascade: false,
+      nullable: false,
     },
   },
 });
