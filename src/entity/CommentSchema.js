@@ -22,6 +22,7 @@ module.exports = new EntitySchema({
       joinTable: false,
       joinColumn: true,
       cascade: false,
+      nullable: true,
     },
     user: {
       target: "UserInfo",
@@ -29,6 +30,7 @@ module.exports = new EntitySchema({
       joinTable: false,
       joinColumn: true,
       cascade: false,
+      nullable: false,
     },
     post: {
       target: "Post",
