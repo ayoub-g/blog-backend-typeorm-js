@@ -93,7 +93,7 @@ module.exports = class PostController {
           .createQueryBuilder()
           .delete()
           .from(Post)
-          .where("id = :id", { id: id })
+          .where("id = :id", { id })
           .execute();
         res.status(HttpStatus.StatusCodes.CREATED).json({ message: "OK" });
       } else {
